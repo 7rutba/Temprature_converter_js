@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+#cotainer{
+    padding:50px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cel{
+    padding: 50px;
+    border: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.feren{
+    padding: 50px;
+    border: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+#celinput , #fereninput{
+    padding: 12px;
+    font-size: 30px;
+}
+label{
+    font-size: 24px;
+}
